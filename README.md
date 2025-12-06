@@ -21,3 +21,7 @@ Argos can do multiline outputs and links, so could be fun to extend with more in
 
 Note, that Anki API doesnt have any way to filter out due cards from the total that are for decks that have the daily reviews set to 0. So if you have 'disabled' a deck but some cards are still due for it (you are basically ignoring them), then they will still show in the total.
 
+## Credits
+
+Credit to this [postman collection](https://www.postman.com/technical-meteorologist-63813544/bunpro-api/folder/0017v5o/reviews) for showing me what was available in the API before it was deprecated. I think it was mentioned in [this](https://community.bunpro.jp/t/bunpro-api-when/100574/12) community thread.
+
