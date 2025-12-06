@@ -14,7 +14,7 @@ Uses [Argos](https://github.com/p-e-w/argos) to display the results of a query t
 ## Installation
 
 1. Install Argos into your GNOME desktop
-1. Move the script into the Argos folder (ie `~/.config/argos/`)
+1. Move the script into the Argos folder (ie `~/.config/argos/`). You can read the argos docs for how often you want them to run; but `srs_indicator.1m.sh` will poll the APIs every 1 minute for example.
 
 ## Notes
 
