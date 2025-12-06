@@ -2,9 +2,10 @@
 
 ![alt text](image.png)
 
-Uses [Argos](https://aur.archlinux.org/packages/argos) to display the results of a query to the Anki connect API (local) and the (deprecatred )Bunpro API. This uses the token in the cookie in the browser rather than the one in your profile settings page, as that one doesn't seem to actually work anymore.
+Uses [Argos](https://github.com/p-e-w/argos) to display the results of a query to the Anki connect API (local) and the (deprecatred )Bunpro API. This uses the token in the cookie in the browser rather than the one in your profile settings page, as that one doesn't seem to actually work anymore.
 
 ## Requirements
+- a GNOME based linux desktop (eg Ubuntu)
 - Anki connect and anki running (theres no remote anki api)
 - Microsoft Edge (can probably alter code for any other browser that `browser_cookie3` supports)
 - Have accessed the Bunpro website via edge, so that the bunpro.jp's `frontend_api_token` cookie gets populated (this seems to get cycled frequently, so make sure you main way to use bunpro is via the browswer)
